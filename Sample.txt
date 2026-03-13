@@ -1,1 +1,17 @@
-Sample text file
+In emergency medical services (EMS), the promptness of intervention is the primary determinant of clinical outcomes. This urgency is encapsulated in the "Golden Hour" paradigm, which asserts that the likelihood of survival for a trauma patient is maximized if definitive care is initiated within 60 minutes of the incident ,. Clinical data indicates that in time-sensitive conditions such as out-of-hospital cardiac arrest (OHCA), every minute of delay in defibrillation reduces the probability of survival by approximately 7% to 10% ,. Despite the critical nature of these first moments, the transition from incident occurrence to emergency response is often hindered by logistical and technological barriers in the urban built environment. 
+
+Urbanization has introduced a significant "traffic dilemma" for emergency logistics. High vehicular density and infrastructure not prioritized for emergency access frequently obstruct ambulance mobility, leading to response times that exceed clinically recommended thresholds. In many metropolitan areas, congestion during peak hours serves as a systemic barrier to healthcare equity, causing delays that can lead to irreversible physiological decompensation ,. Furthermore, existing response frameworks often rely on manual bystander reporting. This introduces failure points such as the "bystander effect," where witnesses may assume others have called for help, or inaccuracies in location reporting that further extend the dispatch interval ,. 
+
+Traditional systems for Non-Emergency Medical Transportation (NEMT) and scheduled healthcare transit are fundamentally reactive and lack the architecture for acute crisis management ,. These services typically require 24 to 48 hours of advance notice and are unequipped to handle sudden in-transit medical episodes. While some smart city initiatives have explored Intelligent Transportation Systems (ITS) to manage traffic signals, there remains a critical gap in providing a unified, real-time communication bridge between the commuter, nearby available responders, and hospital trauma units. 
+
+To address these systemic inefficiencies, this paper introduces MedRide—a Passenger Emergency Response Network. MedRide is a cross-platform mobile ecosystem designed to automate and accelerate the emergency reporting chain. Developed using React Native (Expo) and powered by Firebase backend services, the system facilitates immediate data exchange between multiple stakeholders, including commuters, traffic authorities, and medical facilities. By leveraging Firebase Cloud Messaging (FCM) for real-time alerts and Google Maps APIs for precision geolocation and route optimization, MedRide seeks to reclaim the critical minutes of the Golden Hour that are traditionally lost to manual reporting and traffic congestion ,. 
+
+The primary contributions of the proposed MedRide system are: 
+
+A Cross-Platform Multi-Stakeholder Framework: Integration of commuters, drivers, traffic police, and hospitals into a single, high-speed communication network for synchronized crisis response. 
+
+Real-Time Geocoded Alerting Protocol: Implementation of automated, high-priority notifications via Firebase Cloud Messaging, ensuring that help is dispatched to precise GPS coordinates without human-induced latency. 
+
+Intelligent Route Optimization: Utilization of cloud-integrated mapping services to provide emergency vehicles with the most efficient paths, mitigating the impact of urban traffic congestion. 
+
+Decentralized Incident Management: A scalable architecture that utilizes cloud technologies to ensure reliable data flow and interoperability between private transit vehicles and public emergency services ,. 
